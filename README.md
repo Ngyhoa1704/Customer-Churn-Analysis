@@ -113,25 +113,32 @@ This signals a structural weakness in acquisition. The company is bringing in cu
 ### 5.3 Key Trends and Common Patterns
 
 **1. Churn Risk Is Present Across All Stages**
+
 Whether customers are long-term (stayed), newly acquired, or already churned, churn risk consistently appears. It’s not isolated to any one phase—it **persists through the lifecycle** and is especially popular among high-value accounts.
 
 **2. High Revenue Often Means High Risk**
+
 Across both churned and stayed customers, high-value accounts show the **highest average monthly charges and the highest churn risk**. This contradicts the assumption that high spenders are stable. In fact, they are often the most vulnerable segment.
 
 **3. Churn Is Predictable, Not Random**
+
 The overlap in churn risk scores and value metrics between churned and stayed-at-risk customers proves that churn follows **a repeatable behavioral pattern**. Many stayed customers are simply earlier in the same journey churned customers have already taken.
 
 **4. New Customers Look Like Churned Customers**
+
 Most newly joined customers fall into the **high churn risk – low value quadrant**, the same region where churned accounts cluster. This suggests that **customer acquisition is bringing in accounts with low retention potential** from the start.
 
 **5. High-Value Customers Are Rare and Fragile**
+
 Among all customers, the highest-paying groups are also those **most likely to churn**, and their losses represent revenue decreases.
 
 **6. Safe Customers Drive Volume, Not Margin**
+
 The “safe” stayed group contributes significant revenue, but mainly from low-to-medium value accounts. These customers are valuable for stability but can not outweight the revenue loss caused by churn in the high-value segment
 
 ### 5.4. Churned Risk Factor
 ![image](https://github.com/user-attachments/assets/2317f5ba-f4d5-47ee-84fb-a20950ac2c96)
+
 The profile that emerges from these churn risk factors is not simply one of dissatisfaction—it’s one of **disengagement** and **lack of commitment**.
 
 Despite having core services like **Internet and Phone**, these customers are far more likely to churn when those services are paired with **month-to-month contracts, no added protections,** and no **behavioral signs of attachment**(like referrals, bundling, or optional features). This tells us that **service ownership alone doesn’t equal loyalty**.
