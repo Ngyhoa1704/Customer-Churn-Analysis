@@ -70,10 +70,8 @@ This helped the business quickly identify who to prioritize for retention effort
 ### 3.4 Segmentation and Classification
 Based on their respective scores, customers were plotted on a 2D matrix with Value on one axis and Churn Risk on the other, yielding four strategic quadrants:
 
-- High Value – Safe
-- High Value – At Risk
-- Low Value – Safe
-- Low Value – At Risk
+![image](https://github.com/user-attachments/assets/43e9301e-dec5-44c7-bd1d-ec5300a1ec74)
+
 
 This classification enabled targeted interventions to protect high-value at-risk customers and minimize effort on low-value high-risk segments.
 
