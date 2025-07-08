@@ -2,7 +2,7 @@
 ![image](https://github.com/user-attachments/assets/fc056213-d479-4594-8caf-dee593cd6065)
 
 ## 1. Background
-Customer churn remains a critical issue in the telecommunications industry, directly impacting revenue and long-term sustainability. This study investigates a dataset of 7,043 customers from a fictional telecom operator based in California, comprising demographic, behavioral, service usage, and billing attributes. The business challenge addressed is the identification of high-value customers and early detection of churn risk in order to inform targeted retention strategies.
+Customer churn remains a critical issue in the telecommunications industry, directly impacting revenue and long-term sustainability. This project investigates a dataset of 7,043 customers from a fictional telecom operator based in California, comprising demographic, behavioral, service usage, and billing attributes. The business challenge addressed is the identification of high-value customers and early detection of churn risk in order to inform targeted retention strategies.
 
 ## 2. Objective
 The primary objective is to develop a simplified, data-driven segmentation model that quantifies customer value and churn risk. The final deliverable is a one-page Power BI dashboard that provides actionable insights for executive decision-making, particularly for the Chief Marketing Officer (CMO). The goal is to enhance customer retention by identifying priority segments for engagement and risk mitigation.
