@@ -136,7 +136,7 @@ This threshold was selected based on taking average of the Normalised Churn Risk
 
 
 ### 3.4 Segmentation and Classification
-Based on their respective scores, customers were plotted on a 3D matrix with Value on one axis and Churn Risk on the other, yielding four strategic quadrants:
+Based on their respective scores, here is the customer segmentation and classification, and this was plot on a scatterplot chart yielding four strategic quadrants:
 **Final Segmentation**
 
 ![image](https://github.com/user-attachments/assets/0b6ae213-f0ef-47c7-9ea2-f92e4f4b00ae)
