@@ -61,8 +61,7 @@ Each customer is assigned a value score between 0 and 1:
 
 Therefore, we set a threshold by taking the Average of the Normalised Value Rating column by:
 
->= 0.52, we will set as **"High Value"**
-< 0.52, we will set as **"Low Value"** 
+>=0.52, we will set as **"High Value"**, <0.52, we will set as **"Low Value"** 
 
 This normalized and weighted score allows for easy segmentation (e.g., high vs. low value) and integration into visual tools like scatterplots and dashboards.
 
