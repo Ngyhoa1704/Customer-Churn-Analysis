@@ -259,10 +259,10 @@ Reduces early-stage churn, raises the baseline quality of the customer base, and
 What to do:
 Encourage contract upgrades (e.g., from month-to-month to annual plans) and embed value-added features (like tech support or streaming bundles) as part of default plans. Actively promote engagement tools such as referral programs or content services.
 
-Why it matters:
+**Why it matters:**
 Churned customers rarely engaged with optional features or loyalty programs. They remained on flexible contracts and interacted minimally with the service. These conditions made it easy to leave.
 
-What this solves:
+**What this solves:**
 Creates early behavioral anchors that increase switching cost, deepen product use, and lower churn probability—especially among high-risk, low-engagement users.
 
 
