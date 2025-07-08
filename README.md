@@ -181,54 +181,57 @@ This signals a structural weakness in acquisition. The company is bringing in cu
 
 ### 5.3 Key Trends and Common Patterns
 
-**1. Churn Risk Is Present Across All Stages**
+**1. High-Value Churn Is a Major Revenue Loss**
+Although high-value customers make up a smaller portion of the churned group, they account for a large share of the lost revenue. Their average monthly charges are significantly higher than others, meaning **losing just a few of them has the same financial impact as losing hundreds of low-value accounts.**
 
-Whether customers are long-term (stayed), newly acquired, or already churned, churn risk consistently appears. It’s not isolated to any one phase—it **persists through the lifecycle** and is especially popular among high-value accounts.
+This suggests the company isn’t just bleeding volume—it’s bleeding margin. These customers were not only profitable, but already engaged in premium plans. Yet, **they still left.**
 
-**2. High Revenue Often Means High Risk**
+**2. Stayed Customers at Risk Outperform Safe Ones in Revenue**
+Among customers who haven’t churned yet, those marked as “at risk” (based on churn score) have **higher average monthly charges** than those considered safe. This creates a quiet vulnerability: revenue is currently being held up by customers who resemble churners in behavior.
 
-Across both churned and stayed customers, high-value accounts show the **highest average monthly charges and the highest churn risk**. This contradicts the assumption that high spenders are stable. In fact, they are often the most vulnerable segment.
+This means the business is not in a stable position—it’s in a **delayed-loss position**. Without intervention, the next major churn wave will come from within the most valuable accounts still active today.
 
-**3. Churn Is Predictable, Not Random**
+**3. Newly Joined Customers Offer Little Long-Term Value**
+The vast majority of new customers are both **low in value** and **high in churn risk**. Many of them already fall into the same segmentation quadrants as previously churned accounts. This means the **customer acquisition funnel is pulling in** the wrong profiles—those who are likely to leave before generating meaningful revenue.
 
-The overlap in churn risk scores and value metrics between churned and stayed-at-risk customers proves that churn follows **a repeatable behavioral pattern**. Many stayed customers are simply earlier in the same journey churned customers have already taken.
+This isn’t just a retention problem—it’s an acquisition design problem. The company is not attracting loyal, high-value customers. It’s onboarding churn-prone users and hoping they stay—despite no signs that they will. Their **structing growth and revenue around unstable customer segments**
 
-**4. New Customers Look Like Churned Customers**
-
-Most newly joined customers fall into the **high churn risk – low value quadrant**, the same region where churned accounts cluster. This suggests that **customer acquisition is bringing in accounts with low retention potential** from the start.
-
-**5. High-Value Customers Are Rare and Fragile**
-
-Among all customers, the highest-paying groups are also those **most likely to churn**, and their losses represent revenue decreases.
-
-**6. Safe Customers Drive Volume, Not Margin**
-
-The “safe” stayed group contributes significant revenue, but mainly from low-to-medium value accounts. These customers are valuable for stability but can not outweight the revenue loss caused by churn in the high-value segment
 
 ### 5.4. Churned Risk Factor
 ![image](https://github.com/user-attachments/assets/2317f5ba-f4d5-47ee-84fb-a20950ac2c96)
 
-The profile that emerges from these churn risk factors is not simply one of dissatisfaction—it’s one of **disengagement** and **lack of commitment**.
+The most common characteristics among churned customers reveal a clear behavioral pattern:
 
-Despite having core services like **Internet and Phone**, these customers are far more likely to churn when those services are paired with **month-to-month contracts, no added protections,** and no **behavioral signs of attachment**(like referrals, bundling, or optional features). This tells us that **service ownership alone doesn’t equal loyalty**.
+1. They Have Services, But No Attachment
+Most churned customers had Internet and Phone services, but lacked any deeper engagement. Having the service wasn’t enough to keep them.
 
-**The Churn Mindset: “Nothing to Lose”**
-Customers who churn typically:
-- Use only essential services
-- Avoid any long-term lock-in
-- Decline support or protection features
-- Make no referrals
-- Accept no offers or perks
-- Choose impersonal billing/payment methods (paperless, auto-drafted)
+2. They’re on Flexible, Easy-to-Leave Contracts
+Month-to-month plans appear frequently, highlighting a structural weakness—these customers can leave at any time, and many do.
 
-This is the behavior of a **highly commoditized customer** —one who sees the telecom provider as interchangeable and who is unlikely to feel any switching cost, emotional or practical.
+3. They Avoid Add-Ons and Optional Features
+From security to tech support and streaming, churned customers tend to opt out. This shows minimal product investment and limited perceived value.
 
-What’s really happening?
-The company is losing customers **not because they are unhappy** — **but because they were never truly onboarded, engaged, or bound to begin with**. They may have joined for price or convenience but found no reason to stay. No hooks, no habits, no value-added layers.
+4. They Interact Passively
+With paperless billing and bank withdrawals, there’s little to no contact. Automation makes the relationship feel transactional—and easy to walk away from.
 
-This means churn is not being caused at the end of the relationship—it’s seeded **at the very beginning**, during acquisition and onboarding.
+5. They Don’t Engage Beyond the Basics
+No referrals, no offers accepted, no bundled services used. These customers stay isolated from loyalty mechanisms and product ecosystems.
 
+6. High-Performance Plans Don’t Guarantee Retention
+Even fiber optic users churn, suggesting that strong infrastructure isn’t enough when expectations aren’t matched.
 
+--> Churned customers are not dissatisfied—they’re disengaged. They use the bare minimum, stay anonymous, and leave without friction. The business doesn’t lose them—it never truly had them.
+
+### 5.5. Final Synthesis: What the Data Really Tell Us
+All in all, the data shows that churned customers consistently had active services, but low engagement. Most of them were on month-to-month contracts, opted out of add-on features, automated their payments, and did not participate in any loyalty programs or offers. Their usage was limited to basic services, with no behavioral connection to the provider.
+
+This pattern also appears among many **stayed customers**, particularly those flagged as **“at risk”**. These accounts are still active but share the same behavioral traits as churned customers. Many of them are also high value in terms of monthly charges, meaning they represent both a revenue source and a churn risk.
+
+Newly joined customers follow a similar profile. The majority are low-value and already fall into the high churn risk category. Their behavior matches that of churned customers more than it does retained ones. This suggests that the current acquisition process brings in customers who are unlikely to stay long term.
+
+Across all segments, the key issue is consistent: many customers use the services but do not engage with the brand in a meaningful way. They do not adopt value-added features, do not commit to long-term contracts, and show no loyalty behavior.
+
+This is not only a sign of retention challenges—it also points to issues at the acquisition and onboarding stages. Customers are not being guided toward behaviors that improve loyalty or reduce churn risk.
 
 
 
