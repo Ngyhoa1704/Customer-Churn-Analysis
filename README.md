@@ -137,17 +137,16 @@ A cutoff point of 0.43 was applied:
 
 This threshold was selected based on taking average of the Normalised Churn Risk column.
 
+
+### 3.4 Segmentation and Classification
+Based on their respective scores, customers were plotted on a 3D matrix with Value on one axis and Churn Risk on the other, yielding four strategic quadrants:
 **Final Segmentation**
 
 ![image](https://github.com/user-attachments/assets/0b6ae213-f0ef-47c7-9ea2-f92e4f4b00ae)
 
-### 3.4 Segmentation and Classification
-Based on their respective scores, customers were plotted on a 2D matrix with Value on one axis and Churn Risk on the other, yielding four strategic quadrants:
-
-![image](https://github.com/user-attachments/assets/43e9301e-dec5-44c7-bd1d-ec5300a1ec74)
-
-
 This classification enabled targeted interventions to protect high-value at-risk customers and minimize effort on low-value high-risk segments.
+
+
 
 ## 4. Visualization Strategy
 To optimize interpretability for C-level stakeholders, a minimalist yet information-rich one-page dashboard was developed. It included:
