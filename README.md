@@ -236,6 +236,7 @@ This is not only a sign of retention challenges—it also points to issues at th
 ## 6. Actions and Recommendations
 
 **1. Retain High-Value Customers Showing Churn Risk**
+
 **What to do:**
 Use churn risk scores to identify high-value customers who are still active but showing early signs of churn (e.g., score ≤ 0.43). Focus retention efforts on this group through contract renewal offers, personalized outreach, or added-value benefits.
 
@@ -246,6 +247,7 @@ These customers contribute a significant share of current revenue, yet their beh
 Helps the business avoid losing its highest-paying customers by addressing churn risk early—before they decide to leave.
 
 **2. Improve the Quality of New Customer Acquisition**
+
 **What to do:**
 Apply basic churn filters during acquisition (e.g., contract preference, feature opt-in) and implement onboarding that includes guided product introductions, early offers, and prompts for adopting features tied to long-term retention.
 
@@ -256,7 +258,8 @@ Most newly joined customers are low-value and already high-risk. They reflect th
 Reduces early-stage churn, raises the baseline quality of the customer base, and aligns acquisition with long-term business value—not just volume.
 
 **3. Reduce Churn by Promoting Commitment and Engagement Early**
-What to do:
+
+**What to do:**
 Encourage contract upgrades (e.g., from month-to-month to annual plans) and embed value-added features (like tech support or streaming bundles) as part of default plans. Actively promote engagement tools such as referral programs or content services.
 
 **Why it matters:**
