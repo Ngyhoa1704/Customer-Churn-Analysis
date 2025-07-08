@@ -160,7 +160,7 @@ This approach provided both macro and micro perspectives on retention dynamics i
 ### 5.1 Churned vs. Stayed Customers
 ![image](https://github.com/user-attachments/assets/e6fb6839-6a98-4b92-8341-40208e251abe)
 
-Churned customers make up 39% of the customer base but contribute 32% of monthly revenue. The high-value churned group alone accounts for $72K with the highest average monthly charge in the entire dataset—$94.1. This confirms that the business isn’t just losing volume, it’s losing revenue density.
+Churned customers make up 29% of the customer base but contribute 32% of monthly revenue. The high-value churned group alone accounts for $72K with the highest average monthly charge in the entire dataset—$94.1. This confirms that the business isn’t just losing volume, it’s losing revenue density.
 
 Among stayed customers, a critical segment is those marked **“at risk”**: 1,889 accounts contributing $137K in monthly charges. These customers exhibit churn scores and behavioral patterns nearly identical to those who have already left. High-value stayed-at-risk customers pay an average of $89/month—only slightly less than the churned high-value group—indicating latent churn already embedded in the current base.
 
