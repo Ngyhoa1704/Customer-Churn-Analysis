@@ -127,7 +127,7 @@ D stands for Deviation. This scaled all deviation scores to a standard range fro
 
 Once normalized, all 16 variables were aggregated (summed or averaged) to generate a Churn Risk Score for each customer.
 
-This final score ranges from 0 (very low risk) to 1 (very high risk).
+This final score ranges from 0 (very high risk) to 1 (very low risk).
 
 **Step 5: Threshold for Classification**
 A cutoff point of 0.43 was applied:
