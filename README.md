@@ -50,12 +50,15 @@ Where:
 Each variable was normalized separately using this formula in Power Query. This created a score from 0 (lowest value) to 1 (highest value) for each customer.
 ![image](https://github.com/user-attachments/assets/7e28a7b1-9ba5-435d-9a3d-271ce59e5548)
 
-Result
+**Result**
 Each customer is assigned a value score between 0 and 1:
 
-- Closer to 1 → high financial and behavioral valu
+- Closer to 1 → high financial and behavioral value
 - Closer to 0 → lower strategic importance
 
+Therefore, we set a threshold by taking the Average of the Normalised Value Rating column by:
+-  >= 0.52, we will set as **"High Value"**
+   < 0.52, we will set as **"Low Value"** 
 This normalized and weighted score allows for easy segmentation (e.g., high vs. low value) and integration into visual tools like scatterplots and dashboards.
 
 ### 3.3 Construction of Churn Risk Metric
@@ -86,6 +89,7 @@ Example:
 → This subgroup is **more likely to churn**
 ![image](https://github.com/user-attachments/assets/b6d4f7bd-609d-43a8-8803-8a81736f8b17)
 
+
 **Step 2: Deviation Scoring Across Multiple Variables**
 This calculation was repeated for **16 churn-related variables**, including:
 
@@ -99,11 +103,14 @@ This calculation was repeated for **16 churn-related variables**, including:
 Each subgroup’s deviation was treated as a **churn risk signal**, where **greater negative deviation indicates higher risk**.
 ![image](https://github.com/user-attachments/assets/2954bcec-3f8c-43dd-89d8-234e9e329680)
 
+
 **Step 3: Normalization**
 To combine all variables fairly, each deviation value was normalized using **min-max scaling:**
 ![image](https://github.com/user-attachments/assets/799f99a5-d82e-4fa4-874e-0db21aa881b8)
-D stands for Deviation
-This scaled all deviation scores to a standard range from **0 to 1**, making them comparable across variables.
+
+D stands for Deviation. This scaled all deviation scores to a standard range from **0 to 1**, making them comparable across variables.
+![image](https://github.com/user-attachments/assets/9b77b604-eb81-4967-bf36-d4551c78d2e7)
+
 
 **Step 4: Aggregation into a Composite Score**
 Once normalized, all 16 variables were aggregated (summed or averaged) to generate a Churn Risk Score for each customer.
@@ -116,7 +123,7 @@ A cutoff point of 0.43 was applied:
 - Customers with a churn score **above 0.43** were considered **“Safe”**
 - Customers with a score **below 0.43** were labeled **“At Risk”** (@Risk)
 
-This threshold was selected based on taking average of the whole column.
+This threshold was selected based on taking average of the Normalised Churn Risk column.
 
 ### 3.4 Segmentation and Classification
 Based on their respective scores, customers were plotted on a 2D matrix with Value on one axis and Churn Risk on the other, yielding four strategic quadrants:
