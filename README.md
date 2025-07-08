@@ -17,6 +17,7 @@ The dataset was processed using Power Query within Power BI. Initial steps inclu
 The goal was to measure how valuable each customer is to the business. Instead of looking at one variable at a time, I created a single value score that combines multiple important factors.
 
 **How I chose the variables:**
+
 After exploring the data, I selected three variables that reflect customer value:
 
 - **Monthly Charges:** How much the customer pays each month (shows how profitable they are).
@@ -82,6 +83,7 @@ For example:
 We did this for 16 variables, then combined and normalized those deviations into a single score that reflects how much a customer's **profile matches the behavior of past churners.**
 
 **Here is the step-by-step:**
+
 **Step 1: Baseline Churn Rate**
 
 - The overall churn rate in the dataset is 28%.
