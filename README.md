@@ -1,10 +1,6 @@
 # Customer Churn Analysis
 ![image](https://github.com/user-attachments/assets/fc056213-d479-4594-8caf-dee593cd6065)
 
-
-## Title 
-Customer Value and Churn Risk Segmentation for a California-based Telecommunications Provider
-
 ## 1. Background
 Customer churn remains a critical issue in the telecommunications industry, directly impacting revenue and long-term sustainability. This study investigates a dataset of 7,043 customers from a fictional telecom operator based in California, comprising demographic, behavioral, service usage, and billing attributes. The business challenge addressed is the identification of high-value customers and early detection of churn risk in order to inform targeted retention strategies.
 
