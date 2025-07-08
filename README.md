@@ -94,6 +94,7 @@ Example:
 - Customers on month-to-month contracts have a 52% churn rate
 - Deviation = 28% (baseline) – 52% = –24%
 → This subgroup is **more likely to churn**
+
 ![image](https://github.com/user-attachments/assets/b6d4f7bd-609d-43a8-8803-8a81736f8b17)
 
 
@@ -108,14 +109,17 @@ This calculation was repeated for **16 churn-related variables**, including:
 - Offer acceptance, etc.
 
 Each subgroup’s deviation was treated as a **churn risk signal**, where **greater negative deviation indicates higher risk**.
+
 ![image](https://github.com/user-attachments/assets/2954bcec-3f8c-43dd-89d8-234e9e329680)
 
 
 **Step 3: Normalization**
 To combine all variables fairly, each deviation value was normalized using **min-max scaling:**
+
 ![image](https://github.com/user-attachments/assets/799f99a5-d82e-4fa4-874e-0db21aa881b8)
 
 D stands for Deviation. This scaled all deviation scores to a standard range from **0 to 1**, making them comparable across variables.
+
 ![image](https://github.com/user-attachments/assets/9b77b604-eb81-4967-bf36-d4551c78d2e7)
 
 
