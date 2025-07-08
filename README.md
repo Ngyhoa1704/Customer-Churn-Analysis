@@ -37,7 +37,8 @@ These three were combined into one score, with weights to reflect their importan
 
 I gave more weight to Monthly Charges because it reflects current revenue. Tenure was next, as loyal customers are more valuable over time. Referrals got a smaller share, but they still matter as a sign of trust.
 Then I used the formula:
-  **Customer Value Score=(0.6×Monthly Charges) / MAX(Monthly Charges) +(0.3×Tenure) / MAX(Tenure) +(0.1×Referrals) / MAX(Referrals)**
+
+**Customer Value Score=(0.6×Monthly Charges) / MAX(Monthly Charges) +(0.3×Tenure) / MAX(Tenure) +(0.1×Referrals) / MAX(Referrals)**
   
 ![image](https://github.com/user-attachments/assets/7e089707-584a-4615-9693-07c92584ace3)
 
