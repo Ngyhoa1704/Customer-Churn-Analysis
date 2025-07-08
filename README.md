@@ -45,13 +45,17 @@ Then I used the formula:
 
 **Why Normalize?**
 After weighting the variables, we applied min-max normalization, which rescales each value to a standard range from 0 to 1. This preserves the relative differences across customers while aligning all variables on the same scale.
+
 ![image](https://github.com/user-attachments/assets/867c87ea-55b4-4547-98eb-e9fb7446b34a)
+
 Where:
 - 𝑋 is the original value
 - 𝑋min and 𝑋max are the minimum and maximum observed values for that variable
 
 Each variable was normalized separately using this formula in Power Query. This created a score from 0 (lowest value) to 1 (highest value) for each customer.
+
 ![image](https://github.com/user-attachments/assets/7e28a7b1-9ba5-435d-9a3d-271ce59e5548)
+
 
 **Result**
 Each customer is assigned a value score between 0 and 1:
