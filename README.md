@@ -54,6 +54,7 @@ Each variable was normalized separately using this formula in Power Query. This 
 
 
 **Result**
+
 Each customer is assigned a value score between 0 and 1:
 
 - Closer to 1 → high financial and behavioral value
@@ -202,22 +203,22 @@ This isn’t just a retention problem—it’s an acquisition design problem. Th
 
 The most common characteristics among churned customers reveal a clear behavioral pattern:
 
-1. They Have Services, But No Attachment
+1. They have services, but no attachment
 Most churned customers had Internet and Phone services, but lacked any deeper engagement. Having the service wasn’t enough to keep them.
 
-2. They’re on Flexible, Easy-to-Leave Contracts
+2. They’re on flexible, easy-to-leave contracts
 Month-to-month plans appear frequently, highlighting a structural weakness—these customers can leave at any time, and many do.
 
-3. They Avoid Add-Ons and Optional Features
+3. They avoid ddd-ons and optional features
 From security to tech support and streaming, churned customers tend to opt out. This shows minimal product investment and limited perceived value.
 
-4. They Interact Passively
+4. They interact passively
 With paperless billing and bank withdrawals, there’s little to no contact. Automation makes the relationship feel transactional—and easy to walk away from.
 
-5. They Don’t Engage Beyond the Basics
+5. They don’t engage beyond the basics
 No referrals, no offers accepted, no bundled services used. These customers stay isolated from loyalty mechanisms and product ecosystems.
 
-6. High-Performance Plans Don’t Guarantee Retention
+6. High-performance plans don’t guarantee retention
 Even fiber optic users churn, suggesting that strong infrastructure isn’t enough when expectations aren’t matched.
 
 --> Churned customers are not dissatisfied—they’re disengaged. They use the bare minimum, stay anonymous, and leave without friction. The business doesn’t lose them—it never truly had them.
