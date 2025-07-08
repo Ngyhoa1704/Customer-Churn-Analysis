@@ -235,15 +235,15 @@ Even fiber optic users churn, suggesting that strong infrastructure isn’t enou
 --> Churned customers are not dissatisfied—they’re disengaged. They use the bare minimum, stay anonymous, and leave without friction. The business doesn’t lose them—it never truly had them.
 
 ### 5.5. Final Synthesis: What the Data Really Tell Us
-All in all, the data shows that churned customers consistently had active services, but low engagement. Most of them were on month-to-month contracts, opted out of add-on features, automated their payments, and did not participate in any loyalty programs or offers. Their usage was limited to basic services, with no behavioral connection to the provider.
+All in all, the data shows that churned customers consistently had active services, but **low engagement**. Most of them were on month-to-month contracts, opted out of add-on features, automated their payments, and did not participate in any **loyalty programs or offers**. Their usage was limited to **basic services, with no behavioral connection to the provider**.
 
-This pattern also appears among many **stayed customers**, particularly those flagged as **“at risk”**. These accounts are still active but share the same behavioral traits as churned customers. Many of them are also high value in terms of monthly charges, meaning they represent both a revenue source and a churn risk.
+This pattern also appears among many **stayed customers**, particularly those flagged as **“at risk”**. These accounts are still active but share the **same behavioral traits as churned customers**. Many of them are also high value in terms of monthly charges, meaning they represent both a revenue source and a churn risk.
 
 **Newly joined customers** follow a similar profile. The majority are low-value and already fall into the high churn risk category. Their behavior matches that of churned customers more than it does retained ones. This suggests that the current acquisition process brings in customers who are unlikely to stay long term.
 
-Across all segments, the key issue is consistent: many customers use the services but do not engage with the brand in a meaningful way. They do not adopt value-added features, do not commit to long-term contracts, and show no loyalty behavior.
+Across all segments, the key issue is **consistent**: many customers use the services but **do not engage with the brand in a meaningful way**. They do not adopt value-added features, do not commit to long-term contracts, and show no loyalty behavior.
 
-This is not only a sign of retention challenges—it also points to issues at the acquisition and onboarding stages. Customers are not being guided toward behaviors that improve loyalty or reduce churn risk.
+This is not only a sign of retention challenges—it also points to **issues at the acquisition and onboarding stages**. Customers are not being guided toward behaviors that improve loyalty or reduce churn risk.
 
 ## 6. Actions and Recommendations
 
