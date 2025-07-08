@@ -227,11 +227,47 @@ All in all, the data shows that churned customers consistently had active servic
 
 This pattern also appears among many **stayed customers**, particularly those flagged as **“at risk”**. These accounts are still active but share the same behavioral traits as churned customers. Many of them are also high value in terms of monthly charges, meaning they represent both a revenue source and a churn risk.
 
-Newly joined customers follow a similar profile. The majority are low-value and already fall into the high churn risk category. Their behavior matches that of churned customers more than it does retained ones. This suggests that the current acquisition process brings in customers who are unlikely to stay long term.
+**Newly joined customers** follow a similar profile. The majority are low-value and already fall into the high churn risk category. Their behavior matches that of churned customers more than it does retained ones. This suggests that the current acquisition process brings in customers who are unlikely to stay long term.
 
 Across all segments, the key issue is consistent: many customers use the services but do not engage with the brand in a meaningful way. They do not adopt value-added features, do not commit to long-term contracts, and show no loyalty behavior.
 
 This is not only a sign of retention challenges—it also points to issues at the acquisition and onboarding stages. Customers are not being guided toward behaviors that improve loyalty or reduce churn risk.
+
+## 6. Actions and Recommendations
+
+**1. Retain High-Value Customers Showing Churn Risk**
+**What to do:**
+Use churn risk scores to identify high-value customers who are still active but showing early signs of churn (e.g., score ≤ 0.43). Focus retention efforts on this group through contract renewal offers, personalized outreach, or added-value benefits.
+
+**Why it matters:**
+These customers contribute a significant share of current revenue, yet their behavior closely mirrors churned profiles. If ignored, this segment is likely to churn next—resulting in substantial financial loss.
+
+**What this solves:**
+Helps the business avoid losing its highest-paying customers by addressing churn risk early—before they decide to leave.
+
+**2. Improve the Quality of New Customer Acquisition**
+**What to do:**
+Apply basic churn filters during acquisition (e.g., contract preference, feature opt-in) and implement onboarding that includes guided product introductions, early offers, and prompts for adopting features tied to long-term retention.
+
+**Why it matters:**
+Most newly joined customers are low-value and already high-risk. They reflect the same behavioral patterns as churned customers. Without intervention, they are unlikely to stay or grow in value.
+
+**What this solves:**
+Reduces early-stage churn, raises the baseline quality of the customer base, and aligns acquisition with long-term business value—not just volume.
+
+**3. Reduce Churn by Promoting Commitment and Engagement Early**
+What to do:
+Encourage contract upgrades (e.g., from month-to-month to annual plans) and embed value-added features (like tech support or streaming bundles) as part of default plans. Actively promote engagement tools such as referral programs or content services.
+
+Why it matters:
+Churned customers rarely engaged with optional features or loyalty programs. They remained on flexible contracts and interacted minimally with the service. These conditions made it easy to leave.
+
+What this solves:
+Creates early behavioral anchors that increase switching cost, deepen product use, and lower churn probability—especially among high-risk, low-engagement users.
+
+
+
+
 
 
 
