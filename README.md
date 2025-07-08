@@ -27,6 +27,8 @@ After exploring the data, I selected three variables that reflect customer value
 - **Tenure:** How long the customer has stayed with the company (shows loyalty).
 - **Referrals:** Whether they brought in new customers (shows engagement and satisfaction).
 
+Each variable carries different scales and units (e.g., tenure might range from 1 to 70 months, monthly charges from $20 to $120), making them unsuitable for direct aggregation.
+
 These three were combined into one score, with weights to reflect their importance:
 
 - 60% Monthly Charges
@@ -34,38 +36,87 @@ These three were combined into one score, with weights to reflect their importan
 - 10% Referrals
 
 I gave more weight to Monthly Charges because it reflects current revenue. Tenure was next, as loyal customers are more valuable over time. Referrals got a smaller share, but they still matter as a sign of trust.
-
-**How the score was calculated:**
-Each variable was first scaled to a range between 0 and 1 (a method called normalization). This made sure all values were on the same scale and could be fairly combined.
-
 Then I used the formula:
   **Customer Value Score=(0.6×Monthly Charges)+(0.3×Tenure)+(0.1×Referrals)**
-This created a score from 0 (lowest value) to 1 (highest value) for each customer.
+  ![image](https://github.com/user-attachments/assets/0fee177e-dbd2-4529-ab46-e9632238936c)
+
+**Why Normalize?**
+After weighting the variables, we applied min-max normalization, which rescales each value to a standard range from 0 to 1. This preserves the relative differences across customers while aligning all variables on the same scale.
+![image](https://github.com/user-attachments/assets/867c87ea-55b4-4547-98eb-e9fb7446b34a)
+Where:
+- 𝑋 is the original value
+- 𝑋min and 𝑋max are the minimum and maximum observed values for that variable
+
+Each variable was normalized separately using this formula in Power Query. This created a score from 0 (lowest value) to 1 (highest value) for each customer.
+![image](https://github.com/user-attachments/assets/7e28a7b1-9ba5-435d-9a3d-271ce59e5548)
+
+Result
+Each customer is assigned a value score between 0 and 1:
+
+- Closer to 1 → high financial and behavioral valu
+- Closer to 0 → lower strategic importance
+
+This normalized and weighted score allows for easy segmentation (e.g., high vs. low value) and integration into visual tools like scatterplots and dashboards.
 
 ### 3.3 Construction of Churn Risk Metric
 **Purpose:**
 The goal here was to identify which customers are most likely to leave (churn). I created a churn risk score that combines patterns found across multiple factors in the data.
 
 **How I approached it:**
-I started by finding the average churn rate in the company, which was about 28%. Then I looked at how this rate changed across different groups of customers—like contract types, marital status, and services used.
+Instead of using machine learning to predict churn, we looked at each variable (like contract type or payment method) and checked:
+**"Are people with this characteristic more or less likely to churn than average?"**
+
+For example:
+- 28% of all customers churn.
+- But among month-to-month contract holders, 52% churn.
+→ That’s a +24% churn risk compared to the average.
+
+We did this for 16 variables, then combined and normalized those deviations into a single score that reflects how much a customer's **profile matches the behavior of past churners.**
+
+**Here is the step-by-step:**
+**Step 1: Baseline Churn Rate**
+
+- The overall churn rate in the dataset is 28%.
+- For each categorical variable (e.g., contract type, marital status, online security), the churn rate of each subgroup was calculated.
+- Then, the **deviation** from the baseline was computed.
 
 Example:
+- Customers on month-to-month contracts have a 52% churn rate
+- Deviation = 28% (baseline) – 52% = –24%
+→ This subgroup is **more likely to churn**
+![image](https://github.com/user-attachments/assets/b6d4f7bd-609d-43a8-8803-8a81736f8b17)
 
-- Among all customers, 28% had churned, but for those with month-to-month contracts, the churn rate was 52%—much higher and for two-year contracts, it was only 3%.
---> This difference helped identify which factors were increasing churn risk.
+**Step 2: Deviation Scoring Across Multiple Variables**
+This calculation was repeated for **16 churn-related variables**, including:
 
-**What I did next:**
-I repeated this process for 16 variables, calculating the **difference between each group’s churn rate and the 28% average**. These differences showed whether a factor increased or decreased churn risk.
+- Contract type
+- Payment method
+- Tech support and protection plan status
+- Referral activity
+- Streaming usage
+- Offer acceptance, etc.
 
-Then, I turned these differences into numbers between 0 and 1 using normalization (same method as above), and added them up to create a **Churn Risk Score** for each customer.
+Each subgroup’s deviation was treated as a **churn risk signal**, where **greater negative deviation indicates higher risk**.
+![image](https://github.com/user-attachments/assets/2954bcec-3f8c-43dd-89d8-234e9e329680)
 
-**Final step – Churn Classification:**
-To make this score useful, I set a threshold:
+**Step 3: Normalization**
+To combine all variables fairly, each deviation value was normalized using **min-max scaling:**
+![image](https://github.com/user-attachments/assets/799f99a5-d82e-4fa4-874e-0db21aa881b8)
+D stands for Deviation
+This scaled all deviation scores to a standard range from **0 to 1**, making them comparable across variables.
 
-- If a customer's score was **above 0.43**, they were labeled as **“Safe”** (less likely to churn).
-- If it was below **0.43**, they were considered **“@ Risk”** and may need attention.
+**Step 4: Aggregation into a Composite Score**
+Once normalized, all 16 variables were aggregated (summed or averaged) to generate a Churn Risk Score for each customer.
 
-This helped the business quickly identify who to prioritize for retention efforts.
+This final score ranges from 0 (very low risk) to 1 (very high risk).
+
+**Step 5: Threshold for Classification**
+A cutoff point of 0.43 was applied:
+
+- Customers with a churn score **above 0.43** were considered **“Safe”**
+- Customers with a score **below 0.43** were labeled **“At Risk”** (@Risk)
+
+This threshold was selected based on taking average of the whole column.
 
 ### 3.4 Segmentation and Classification
 Based on their respective scores, customers were plotted on a 2D matrix with Value on one axis and Churn Risk on the other, yielding four strategic quadrants:
