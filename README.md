@@ -37,8 +37,10 @@ These three were combined into one score, with weights to reflect their importan
 
 I gave more weight to Monthly Charges because it reflects current revenue. Tenure was next, as loyal customers are more valuable over time. Referrals got a smaller share, but they still matter as a sign of trust.
 Then I used the formula:
-  **Customer Value Score=(0.6×Monthly Charges)+(0.3×Tenure)+(0.1×Referrals)**
-  ![image](https://github.com/user-attachments/assets/0fee177e-dbd2-4529-ab46-e9632238936c)
+  **Customer Value Score=(0.6×Monthly Charges) / MAX(Monthly Charges) +(0.3×Tenure) / MAX(Tenure) +(0.1×Referrals) / MAX(Referrals)**
+  
+![image](https://github.com/user-attachments/assets/7e089707-584a-4615-9693-07c92584ace3)
+
 
 **Why Normalize?**
 After weighting the variables, we applied min-max normalization, which rescales each value to a standard range from 0 to 1. This preserves the relative differences across customers while aligning all variables on the same scale.
