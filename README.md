@@ -185,16 +185,19 @@ This signals a structural weakness in acquisition. The company is bringing in cu
 ### 5.3 Key Trends and Common Patterns
 
 **1. High-Value Churn Is a Major Revenue Loss**
+
 Although high-value customers make up a smaller portion of the churned group, they account for a large share of the lost revenue. Their average monthly charges are significantly higher than others, meaning **losing just a few of them has the same financial impact as losing hundreds of low-value accounts.**
 
 This suggests the company isn’t just bleeding volume—it’s bleeding margin. These customers were not only profitable, but already engaged in premium plans. Yet, **they still left.**
 
 **2. Stayed Customers at Risk Outperform Safe Ones in Revenue**
+
 Among customers who haven’t churned yet, those marked as “at risk” (based on churn score) have **higher average monthly charges** than those considered safe. This creates a quiet vulnerability: revenue is currently being held up by customers who resemble churners in behavior.
 
 This means the business is not in a stable position—it’s in a **delayed-loss position**. Without intervention, the next major churn wave will come from within the most valuable accounts still active today.
 
 **3. Newly Joined Customers Offer Little Long-Term Value**
+
 The vast majority of new customers are both **low in value** and **high in churn risk**. Many of them already fall into the same segmentation quadrants as previously churned accounts. This means the **customer acquisition funnel is pulling in** the wrong profiles—those who are likely to leave before generating meaningful revenue.
 
 This isn’t just a retention problem—it’s an acquisition design problem. The company is not attracting loyal, high-value customers. It’s onboarding churn-prone users and hoping they stay—despite no signs that they will. Their **structing growth and revenue around unstable customer segments**
@@ -205,27 +208,27 @@ This isn’t just a retention problem—it’s an acquisition design problem. Th
 
 The most common characteristics among churned customers reveal a clear behavioral pattern:
 
-1. They have services, but no attachment
+**1. They have services, but no attachment**
 
 Most churned customers had Internet and Phone services, but lacked any deeper engagement. Having the service wasn’t enough to keep them.
 
-2. They’re on flexible, easy-to-leave contracts
+**2. They’re on flexible, easy-to-leave contracts**
 
 Month-to-month plans appear frequently, highlighting a structural weakness—these customers can leave at any time, and many do.
 
-3. They avoid ddd-ons and optional features
+**3. They avoid ddd-ons and optional features**
 
 From security to tech support and streaming, churned customers tend to opt out. This shows minimal product investment and limited perceived value.
 
-4. They interact passively
+**4. They interact passively**
 
 With paperless billing and bank withdrawals, there’s little to no contact. Automation makes the relationship feel transactional—and easy to walk away from.
 
-5. They don’t engage beyond the basics
+**5. They don’t engage beyond the basics**
 
 No referrals, no offers accepted, no bundled services used. These customers stay isolated from loyalty mechanisms and product ecosystems.
 
-6. High-performance plans don’t guarantee retention
+**6. High-performance plans don’t guarantee retention**
 
 Even fiber optic users churn, suggesting that strong infrastructure isn’t enough when expectations aren’t matched.
 
